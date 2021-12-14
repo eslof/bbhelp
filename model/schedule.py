@@ -1,13 +1,11 @@
 from datetime import datetime
 import json
-import random
-import time
 from typing import Dict, TypedDict
 
 import requests
 
-from save_data import SaveData, SaveState
-from track import get_position
+from data.save_data import SaveData, SaveState
+from model.track import get_position
 
 
 class Day(TypedDict):

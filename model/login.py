@@ -1,7 +1,7 @@
 import requests
 
 from bs4 import BeautifulSoup
-from config import LoginConfig
+from config.config import LoginConfig
 
 
 def do_login(s: requests.session) -> None:

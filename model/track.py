@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-from config import TrackConfig
+from config.config import TrackConfig
 
 
 def get_position(s: requests.Session, book_id: str) -> int:

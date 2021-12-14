@@ -1,7 +1,7 @@
 import urllib.parse
 import requests
 
-from config import BookConfig
+from config.config import BookConfig
 
 
 def get_oldest(

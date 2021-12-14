@@ -3,12 +3,12 @@ import time
 
 from requests import Session
 
-from save_data import SaveData, BumpedBook
-from book import get_oldest
-from bump import do_bump
-from login import do_login
-from schedule import Schedule
-from config import MainConfig, BookConfig
+from data.save_data import SaveData, BumpedBook
+from model.book import get_oldest
+from model.bump import do_bump
+from model.login import do_login
+from model.schedule import Schedule
+from config.config import MainConfig, BookConfig
 
 
 def main():
